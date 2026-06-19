@@ -1,0 +1,21 @@
+schema_version: "vyges-upstream-v1"
+upstream:
+  type: "standalone"
+  repo: https://github.com/gatecat/CSI2Rx
+  branch: master
+  commit: 582f870d31404f58fffa557459b4c0dbd9b85937
+  extracted_at: "2026-06-19T03:46:57Z"
+import:
+  rtl:
+    - path: "vhdl_rx"
+      map_to: "rtl/vhdl_rx"
+    - path: "verilog_cores"
+      map_to: "rtl/verilog_cores"
+  license:
+    - path: "LICENSE"
+  readme:
+    - path: "README.md"
+license:
+  spdx: MIT
+  file: LICENSE
+metadata_locked: true
